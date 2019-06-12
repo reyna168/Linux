@@ -1,0 +1,88 @@
+mkdir ~/scripts
+printf '#!/bin/bash\necho HelloWorld' > ~/scripts/my_script.sh
+chmod +x ~/scripts/my_script.sh
+~/scripts/my_script.sh
+cd /tmp
+my_script.sh
+PATH=~/scripts:$PATH
+
+PROXY ='http://xxx:80'
+echo $PATH
+
+cat ~/scripts/local_var.sh
+chmod +x ~/scripts/local_var.sh
+
+export MYVAR = helloworld
+ssh -p 222 olip@127.0.0.1
+
+su -c 'vi /etc/environment'
+
+su -c 'find / -name "*.sh"'
+
+for count in 1234
+> do
+> echo $count
+> done
+1234
+
+
+echo {1..20}
+seq 1 20
+
+for number in {1..20}
+> do
+> echo "this is $number"
+> done
+
+
+
+for number in $(seq 1 20)
+> do
+> echo "this is $number"
+> done
+
+
+for file in *
+> do
+> echo "This is the file name $file"
+> done
+This is the file name nohup.out
+This is the file name seller_repo
+This is the file name tmp
+
+mkdir ~/stuff
+touch ~/stuff/1.txt ~/stuff/2.txt ~/stuff/3.txt ~/stuff/4.txt ~/stuff/5.txt
+
+ls ~/stuff
+
+
+for file in ~/stuff/*.txt
+> do
+> mv $file ~/stuff/$(basename $file .txt).do
+> done
+$ ls ~/stuff
+1.do  2.do  3.do  4.do  5.do
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
