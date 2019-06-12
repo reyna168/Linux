@@ -1,0 +1,27 @@
+ps -ef | less
+top
+man ps
+
+sleep 10000
+sleep 10000&
+fg
+bg
+jobs
+
+sudo yum install psmisc
+
+kill %1
+
+kill -l
+
+sleep 1000 &
+ps aux | grep sleep
+
+kill -g 2397
+
+ps aux | grep sleep
+
+
+
+
+
