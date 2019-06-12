@@ -1,0 +1,19 @@
+systemctl list-unit-files --type=service
+systemctl status httpd.service
+
+systemctl start httpd.service
+systemctl status httpd.service
+
+systemctl stop httpd.service
+systemctl status httpd.service
+
+systemctl disable httpd.service
+
+
+
+
+
+sudo firewall-cmd --list-all
+
+
+
